@@ -1,0 +1,39 @@
+.weather-icon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.weather-data {
+    padding-right: 60px;
+    font-size: 125%;
+}
+
+.weather-data i {
+    margin-right: 5px;
+    color: #ffab40;
+    vertical-align: middle;
+}
+
+.weather-data p {
+    margin-bottom: 15px !important;
+}
+
+.weather-city {
+    font-size: 22px;
+    pointer-events: none;
+}
+
+.weather-img-container {
+    max-width: 200px !important;
+    overflow: hidden;
+}
+
+.weather-img-container .card-title {
+    text-shadow: 0px 2px 3px black;
+}
+
+.weather-img {
+    max-height: 240px;
+    max-width: initial !important;
+}
